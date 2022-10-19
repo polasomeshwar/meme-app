@@ -1,4 +1,4 @@
-const API = "https://meme-api.herokuapp.com/gimme";
+const API = "https://meme-api.herokuapp.com/gimme/IndianDankMemes";
 const getImageUrl = async()=>{
     let resp = await fetch(API);
     return resp.json();
